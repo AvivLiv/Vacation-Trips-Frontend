@@ -1,0 +1,13 @@
+html,body,#root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    font-style: italic;
+    background-image: url("./access/download.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+

@@ -1,0 +1,6 @@
+.VacationUserCard .description{
+    overflow: auto;
+    display: block;
+    word-wrap: break-word;
+    height: 150px;
+}
