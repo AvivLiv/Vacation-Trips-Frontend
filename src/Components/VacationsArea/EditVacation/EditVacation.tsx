@@ -50,7 +50,6 @@ function EditVacation(props: EditVacationProps): JSX.Element {
 
     const vacation = store.getState().vacationReducer.vacation.find(v => v.vacationId === +props.match.params.vacationId);
 
-
     useEffect(() => {
         if (!vacation) {
             store.dispatch(EditVacationIdAction(0));
