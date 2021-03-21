@@ -6,7 +6,7 @@ export class GlobalPath{
     public static logoutLinkUrl="/logout";
     public static registerLinkUrl="/register";
     public static addVacationLinkUrl="/add-vacation";
-    public static editVacationLinkUrl="/edit-vacation/";
+    public static editVacationLinkUrl="/edit-vacation";
     public static editUserLinkUrl="/edit-user";
     public static adminPageLinkUrl="/admin-page";
 

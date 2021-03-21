@@ -84,7 +84,7 @@ export default function VacationTab() {
                 <Route path={GlobalPath.logoutLinkUrl} component={Logout} exact />
                 <Route path={GlobalPath.registerLinkUrl} component={Register} exact />
                 <Route path={GlobalPath.addVacationLinkUrl} component={AddVacation} exact />
-                <Route path={GlobalPath.editVacationLinkUrl + ":vacationId"} component={EditVacation} exact />
+                <Route path={GlobalPath.editVacationLinkUrl + "/:vacationId"} component={EditVacation} exact />
                 <Route path={GlobalPath.editUserLinkUrl} component={EditUser} exact />
                 <Route path={GlobalPath.adminPageLinkUrl} component={AdminPage} exact />
                 <Redirect from="*" to={GlobalPath.homeLinkUrl} exact />
